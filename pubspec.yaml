@@ -1,0 +1,48 @@
+name: vibetrack
+description: "将音频转换为触觉反馈的应用"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # 文件选择
+  file_picker: ^8.1.7
+  
+  # 音频播放
+  just_audio: ^0.9.42
+  
+  # 状态管理
+  provider: ^6.1.2
+  
+  # 本地存储
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.4
+  
+  # UUID生成
+  uuid: ^4.5.1
+  
+  # 权限管理
+  permission_handler: ^11.3.1
+  
+  # JSON序列化
+  json_annotation: ^4.9.0
+  
+  # 分享功能
+  share_plus: ^10.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
